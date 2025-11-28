@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
@@ -21,7 +22,7 @@ const Header: React.FC = () => {
         {/* LOGO */}
         <div className="w-[100px] h-full flex justify-center items-center">
           <Link to="/">
-            <img src={Logo} alt="Logo" className="w-auto h-[40px]" />
+            <img src={Logo} alt="Logo" className="w-auto h-[55px]" />
           </Link>
         </div>
 
@@ -56,7 +57,7 @@ const Header: React.FC = () => {
         {/* BUTTON (Desktop only) */}
         <div className="hidden md:flex w-[120px] justify-center items-center">
           <Link to="/LetsTalk">
-            <button className="border border-[#0A84FF] rounded-full text-[#1A1A1A] px-4 py-2 font-poppins text-[15px] transition-none hover:bg-transparent">
+            <button className="border border-[#0A84FF] rounded-full text-[#1A1A1A] px-4 py-2 font-poppins text-[15px] cursor-pointer transition-none hover:bg-transparent">
               Let's Talk
             </button>
           </Link>

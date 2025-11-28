@@ -134,7 +134,7 @@ const Testimonials: React.FC = () => {
           unparalleled support.
         </p>
         <Link to="/LetsTalk">
-          <button className="flex items-center gap-2 btn border-none rounded-full bg-gradient-to-r from-[#C1156F] to-[#7ABCFF] text-white font-poppins px-10 py-6 hover:opacity-90 transition-all duration-300">
+          <button className="flex items-center gap-2 btn border-none rounded-full bg-gradient-to-r from-[#C1156F] to-[#7ABCFF] text-white cursor-pointer font-poppins px-10 py-6 hover:opacity-90 transition-all duration-300">
             <span>Get In Touch</span>
             <FaPhoneAlt />
           </button>
